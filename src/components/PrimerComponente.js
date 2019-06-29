@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PrimerComponente extends Component {
-    render() { 
-        return ( <h1>Hola Mundo</h1> );
-    }
-}
+let PrimerComponente = () => <h1>Hola Mundo</h1>
+ 
  
 export default PrimerComponente;
